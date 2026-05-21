@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "subtitle": "Kit completi per aprire un angolo o un negozio di lavaggio self-service per animali domestici. Vasche inox, POS integrato, soffiatori professionali e marchio LAVAMICI® incluso.",
+    "photo": "assets/images/shop-lavamici.jpg"
+  },
+  "chi_siamo": {
+    "testo1": "Anni di esperienza nel settore delle gettoniere e delle soluzioni self-service ci hanno portato a sviluppare LAVAMICI®: la risposta completa per chi vuole avviare o ampliare un'attività di lavaggio self-service per animali domestici.",
+    "testo2": "Forniamo kit completi, pronti per l'installazione, con tutto il necessario per avviare il business: vasche inox professionali, rubinetterie complete, gettoniere con POS integrato e soffiatori professionali. Un unico interlocutore per tutto.",
+    "photo": "assets/images/shop-lavamici.jpg"
+  },
+  "soluzioni": {
+    "sol1_photo": "assets/images/vasca-installazione.png",
+    "sol1_nota": "Pensato per chi vuole aggiungere un angolo toelettatura self-service a un locale già attivo, senza ristrutturazioni importanti.",
+    "sol2_photo": "assets/images/shop-lavamici.jpg",
+    "sol2_nota": "La soluzione completa per avviare un'attività interamente dedicata al pet wash self-service con doppia postazione operativa."
+  },
+  "prodotti": {
+    "soffiatore_photo": "assets/images/soffiatore.jpg",
+    "gettoniera_photo": "assets/images/gettoniera-pos.jpg"
+  },
+  "contatti": {
+    "telefono_display": "340 006 9549",
+    "telefono_href": "+393400069549",
+    "whatsapp_numero": "393400069549",
+    "web3forms_key": "1433d3ee-a81c-440e-bbc0-4b7674c99496"
+  }
+}

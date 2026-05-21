@@ -1,0 +1,89 @@
+backend:
+  name: github
+  repo: tullio2008s-ai/lavamici
+  branch: main
+  base_url: https://decapcms-auth.netlify.app
+
+media_folder: "assets/images"
+public_folder: "assets/images"
+locale: it
+
+collections:
+  - name: "contenuto"
+    label: "Contenuto sito"
+    files:
+
+      - label: "Testi e Immagini"
+        name: "content"
+        file: "_data/content.json"
+        fields:
+
+          - label: "Sezione Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Sottotitolo"
+                name: "subtitle"
+                widget: "text"
+              - label: "Foto hero (destra)"
+                name: "photo"
+                widget: "image"
+
+          - label: "Sezione Chi Siamo"
+            name: "chi_siamo"
+            widget: "object"
+            fields:
+              - label: "Testo paragrafo 1"
+                name: "testo1"
+                widget: "text"
+              - label: "Testo paragrafo 2"
+                name: "testo2"
+                widget: "text"
+              - label: "Foto"
+                name: "photo"
+                widget: "image"
+
+          - label: "Le Soluzioni — Foto e Note"
+            name: "soluzioni"
+            widget: "object"
+            fields:
+              - label: "Soluzione 1 — Foto"
+                name: "sol1_photo"
+                widget: "image"
+              - label: "Soluzione 1 — Nota in evidenza"
+                name: "sol1_nota"
+                widget: "text"
+              - label: "Soluzione 2 — Foto"
+                name: "sol2_photo"
+                widget: "image"
+              - label: "Soluzione 2 — Nota in evidenza"
+                name: "sol2_nota"
+                widget: "text"
+
+          - label: "Prodotti — Foto"
+            name: "prodotti"
+            widget: "object"
+            fields:
+              - label: "Foto soffiatore"
+                name: "soffiatore_photo"
+                widget: "image"
+              - label: "Foto gettoniera POS"
+                name: "gettoniera_photo"
+                widget: "image"
+
+          - label: "Contatti"
+            name: "contatti"
+            widget: "object"
+            fields:
+              - label: "Numero telefono (visualizzato)"
+                name: "telefono_display"
+                widget: "string"
+              - label: "Numero telefono (con prefisso, es. +393400069549)"
+                name: "telefono_href"
+                widget: "string"
+              - label: "Numero WhatsApp (solo cifre, es. 393400069549)"
+                name: "whatsapp_numero"
+                widget: "string"
+              - label: "Chiave Web3Forms (per il form contatti)"
+                name: "web3forms_key"
+                widget: "string"
