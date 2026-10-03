@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="t d" font-family="Helvetica, Arial, sans-serif">
   <title id="t">Schema illustrativo di principio del collegamento vasca PET WASH LAVAMICI</title>
-  <desc id="d">Vasca inox con rampa, filtro e sifone ispezionabile sullo scarico Ø 40 mm, miscelatore, doccino, erogatore manuale di sapone, elettrovalvole acqua fredda e calda comandate da una gettoniera per postazione, che comanda l'acqua oppure il soffiatore.</desc>
+  <desc id="d">Acqua fredda e acqua calda arrivano direttamente al miscelatore. L'uscita miscelata è un unico tubo con elettrovalvola comandata dalla gettoniera e va a un rubinetto con selettore che attiva il rubinetto oppure il doccino. Vasca inox con rampa, filtro e sifone ispezionabile sullo scarico Ø 40 mm, erogatore manuale di sapone. Una gettoniera per postazione comanda l'acqua oppure il soffiatore.</desc>
   <rect width="1200" height="860" fill="#ffffff"/>
   <text x="600" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#1b2a41">SCHEMA DI PRINCIPIO — COLLEGAMENTO VASCA PET WASH</text>
-  <text x="600" y="70" text-anchor="middle" font-size="17" fill="#5b6675">Una postazione: vasca, gettoniera con POS integrato, elettrovalvole acqua e soffiatore (illustrativo, non in scala)</text>
+  <text x="600" y="70" text-anchor="middle" font-size="17" fill="#5b6675">Una postazione: vasca, gettoniera con POS integrato, elettrovalvola acqua e soffiatore (illustrativo, non in scala)</text>
   <rect x="24" y="92" width="1152" height="680" rx="14" fill="#f7f8fa"/>
 
   <!-- pavimento -->
@@ -18,60 +18,75 @@
     <text x="300" y="102" text-anchor="middle" fill="#d62c2c">Ingresso</text><text x="300" y="120" text-anchor="middle" fill="#d62c2c">acqua calda</text>
   </g>
   <rect x="143" y="174" width="14" height="40" fill="#0a8fd6"/><rect x="293" y="174" width="14" height="40" fill="#d62c2c"/>
-  <!-- rubinetti intercettazione -->
+  <!-- rubinetti di intercettazione -->
   <rect x="128" y="214" width="44" height="30" rx="4" fill="#c9d1d9" stroke="#6b7785" stroke-width="2"/>
   <rect x="278" y="214" width="44" height="30" rx="4" fill="#c9d1d9" stroke="#6b7785" stroke-width="2"/>
-  <text x="70" y="234" text-anchor="middle" font-size="15" font-weight="700" fill="#0a8fd6">Rubinetto AF</text>
-  <text x="332" y="234" font-size="15" font-weight="700" fill="#d62c2c">Rubinetto AC</text>
-  <rect x="143" y="244" width="14" height="22" fill="#0a8fd6"/><rect x="293" y="244" width="14" height="22" fill="#d62c2c"/>
-  <!-- elettrovalvole -->
-  <rect x="128" y="266" width="44" height="48" rx="6" fill="#d9b23a" stroke="#8a6d12" stroke-width="2"/>
-  <rect x="278" y="266" width="44" height="48" rx="6" fill="#d9b23a" stroke="#8a6d12" stroke-width="2"/>
-  <text x="70" y="294" text-anchor="middle" font-size="15" font-weight="700" fill="#0a8fd6">Elettrovalvola</text>
-  <text x="70" y="312" text-anchor="middle" font-size="15" font-weight="700" fill="#0a8fd6">AF</text>
-  <text x="332" y="290" font-size="15" font-weight="700" fill="#d62c2c">Elettrovalvola</text>
-  <text x="332" y="308" font-size="15" font-weight="700" fill="#d62c2c">AC</text>
-  <!-- tubi flessibili verso miscelatore -->
-  <path d="M150 314 C150 380 300 360 405 372" fill="none" stroke="#0a8fd6" stroke-width="6"/>
-  <path d="M300 314 C300 360 340 380 405 380" fill="none" stroke="#d62c2c" stroke-width="6"/>
-  <text x="188" y="396" font-size="15" font-weight="700" fill="#0a8fd6">Tubi flessibili inox AF / AC</text>
+  <text x="70" y="228" text-anchor="middle" font-size="15" font-weight="700" fill="#0a8fd6">Rubinetto di</text>
+  <text x="70" y="246" text-anchor="middle" font-size="15" font-weight="700" fill="#0a8fd6">intercettazione</text>
+  <text x="332" y="234" font-size="15" font-weight="700" fill="#d62c2c">Rubinetto di intercettazione</text>
+  <rect x="143" y="244" width="14" height="14" fill="#0a8fd6"/><rect x="293" y="244" width="14" height="14" fill="#d62c2c"/>
 
-  <!-- cavo comando elettrovalvole -->
-  <path d="M928 200 C760 160 470 190 172 290" fill="none" stroke="#222" stroke-width="3" stroke-dasharray="9 6"/>
-  <path d="M928 206 C760 170 480 240 322 290" fill="none" stroke="#222" stroke-width="3" stroke-dasharray="9 6"/>
-  <rect x="400" y="150" width="330" height="26" rx="4" fill="#f7f8fa"/><text x="565" y="169" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Cavo di comando elettrovalvole (12 Vcc)</text>
+  <!-- tubi flessibili diretti al miscelatore -->
+  <path d="M150 258 C150 340 300 350 402 372" fill="none" stroke="#0a8fd6" stroke-width="6"/>
+  <path d="M300 258 C300 320 350 362 402 382" fill="none" stroke="#d62c2c" stroke-width="6"/>
+  <rect x="120" y="296" width="230" height="26" rx="4" fill="#f7f8fa"/>
+  <text x="235" y="315" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">Tubi flessibili inox AF / AC</text>
+
+  <!-- cavo comando elettrovalvola -->
+  <path d="M928 200 C760 130 520 200 524 418" fill="none" stroke="#222" stroke-width="3" stroke-dasharray="9 6"/>
+  <rect x="480" y="150" width="300" height="26" rx="4" fill="#f7f8fa"/>
+  <text x="630" y="169" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Cavo di comando elettrovalvola (12 Vcc)</text>
 
   <!-- vasca -->
   <rect x="338" y="394" width="560" height="180" rx="8" fill="#b6c2ca" stroke="#6f8290" stroke-width="3"/>
   <rect x="356" y="412" width="524" height="146" rx="6" fill="#a3b2bc"/>
-  <text x="640" y="470" text-anchor="middle" font-size="19" font-weight="700" fill="#33414d">Vasca inox</text>
+  <text x="780" y="540" text-anchor="middle" font-size="19" font-weight="700" fill="#33414d">Vasca inox</text>
   <!-- supporti -->
   <rect x="352" y="574" width="26" height="166" fill="#aab6bf" stroke="#6f8290" stroke-width="2"/>
   <rect x="858" y="574" width="26" height="166" fill="#aab6bf" stroke="#6f8290" stroke-width="2"/>
-    <!-- rampa -->
+  <!-- rampa -->
   <polygon points="898,520 898,562 1100,740 1052,740" fill="#8d99a3" stroke="#5b6773" stroke-width="2"/>
   <g stroke="#5b6773" stroke-width="3"><line x1="935" y1="562" x2="960" y2="530"/><line x1="978" y1="600" x2="1004" y2="568"/><line x1="1020" y1="640" x2="1046" y2="608"/><line x1="1062" y1="680" x2="1088" y2="648"/></g>
   <text x="1010" y="700" font-size="16" font-weight="700" fill="#33414d" text-anchor="end">Rampa di accesso</text>
 
-  <!-- miscelatore e doccino -->
-  <rect x="405" y="352" width="76" height="42" rx="6" fill="#c9d1d9" stroke="#6b7785" stroke-width="2"/>
-  <text x="443" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">Miscelatore</text>
-  <path d="M470 394 C470 450 520 440 548 478" fill="none" stroke="#5b6773" stroke-width="6" stroke-linecap="round"/>
-  <rect x="540" y="474" width="22" height="30" rx="8" fill="#5b6773" transform="rotate(-25 551 489)"/>
-  <text x="580" y="508" font-size="15" font-weight="700" fill="#33414d">Doccino</text>
+  <!-- miscelatore (ingressi AF/AC diretti) -->
+  <rect x="404" y="352" width="76" height="42" rx="6" fill="#c9d1d9" stroke="#6b7785" stroke-width="2"/>
+  <text x="442" y="379" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">Miscelatore</text>
+  <!-- uscita miscelata: tubo unico -> elettrovalvola -> rubinetto -->
+  <path d="M442 394 L442 444 L500 444" fill="none" stroke="#8a5fb3" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="500" y="422" width="48" height="46" rx="6" fill="#d9b23a" stroke="#8a6d12" stroke-width="2"/>
+  <rect x="514" y="406" width="22" height="16" rx="3" fill="#2a2f35"/>
+  <path d="M548 444 L590 444 L590 394" fill="none" stroke="#8a5fb3" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="396" y="456" width="104" height="22" rx="4" fill="#a3b2bc"/>
+  <text x="448" y="472" text-anchor="middle" font-size="13" font-weight="700" fill="#5a3a80">acqua miscelata</text>
+  <rect x="456" y="480" width="150" height="26" rx="4" fill="#f7f8fa"/>
+  <text x="531" y="499" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">Elettrovalvola 12 Vcc</text>
+
+  <!-- rubinetto con selettore + doccino -->
+  <rect x="574" y="356" width="32" height="38" rx="5" fill="#d7dde2" stroke="#6b7785" stroke-width="2"/>
+  <path d="M590 356 C590 316 628 304 646 332 L646 350" fill="none" stroke="#6b7785" stroke-width="9" stroke-linecap="round"/>
+  <rect x="640" y="346" width="12" height="10" fill="#6b7785"/>
+  <line x1="606" y1="370" x2="626" y2="364" stroke="#6b7785" stroke-width="5" stroke-linecap="round"/>
+  <text x="646" y="286" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">Rubinetto con selettore</text>
+  <text x="646" y="304" text-anchor="middle" font-size="14" fill="#33414d">(attiva rubinetto oppure doccino)</text>
+  <path d="M606 384 C668 384 676 430 664 468" fill="none" stroke="#5b6773" stroke-width="6" stroke-linecap="round"/>
+  <rect x="654" y="462" width="20" height="30" rx="8" fill="#5b6773" transform="rotate(-12 664 477)"/>
+  <rect x="676" y="476" width="76" height="24" rx="4" fill="#a3b2bc"/>
+  <text x="714" y="493" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">Doccino</text>
 
   <!-- erogatore sapone -->
-  <rect x="690" y="364" width="34" height="30" rx="4" fill="#e9eef2" stroke="#6b7785" stroke-width="2"/>
-  <rect x="702" y="346" width="10" height="18" fill="#6b7785"/>
-  <rect x="728" y="370" width="30" height="24" rx="4" fill="#9ed3c4" stroke="#4b8d7c" stroke-width="2"/>
-  <text x="786" y="414" text-anchor="end" font-size="15" font-weight="700" fill="#33414d">Erogatore manuale di sapone</text>
-  <text x="786" y="434" text-anchor="end" font-size="14" fill="#33414d">piccolo serbatoio in dotazione</text>
+  <rect x="712" y="372" width="30" height="22" rx="4" fill="#e9eef2" stroke="#6b7785" stroke-width="2"/>
+  <rect x="724" y="352" width="8" height="20" fill="#6b7785"/>
+  <rect x="716" y="396" width="22" height="48" rx="5" fill="#f4f6f8" stroke="#8795a1" stroke-width="2"/>
+  <text x="748" y="420" font-size="15" font-weight="700" fill="#33414d">Erogatore manuale</text>
+  <text x="748" y="438" font-size="15" font-weight="700" fill="#33414d">di sapone</text>
+  <text x="748" y="456" font-size="13" fill="#33414d">piccolo serbatoio in dotazione</text>
   <!-- tanica dietro -->
   <rect x="800" y="300" width="64" height="82" rx="8" fill="#d9e7f2" stroke="#6b8aa3" stroke-width="2"/>
   <rect x="822" y="288" width="22" height="14" fill="#6b8aa3"/>
   <text x="832" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#33414d">Tanica dietro la vasca</text>
-  <path d="M810 330 C770 330 745 350 728 372" fill="none" stroke="#4b8d7c" stroke-width="3" stroke-dasharray="7 5"/>
-  <text x="768" y="318" text-anchor="middle" font-size="13" fill="#2e6a59">tubo di aspirazione</text>
+  <path d="M810 330 C780 330 756 350 738 372" fill="none" stroke="#4b8d7c" stroke-width="3" stroke-dasharray="7 5"/>
+  <text x="786" y="318" text-anchor="middle" font-size="13" fill="#2e6a59">tubo di aspirazione</text>
 
   <!-- gettoniera -->
   <rect x="928" y="110" width="190" height="230" rx="10" fill="#e8ecef" stroke="#6f7f8c" stroke-width="3"/>
@@ -82,9 +97,7 @@
   <circle cx="1052" cy="204" r="11" fill="#2f9e44"/><circle cx="1052" cy="236" r="11" fill="#f2c230"/><circle cx="1052" cy="268" r="11" fill="#fff" stroke="#6f7f8c" stroke-width="2"/>
   <text x="1023" y="304" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">Gettoniera con POS</text>
   <text x="1023" y="324" text-anchor="middle" font-size="15" font-weight="700" fill="#33414d">(una per postazione)</text>
-  <!-- alimentazione -->
-  <rect x="980" y="92" width="86" height="0" fill="none"/>
-    <text x="1023" y="104" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Quadretto elettrico protetto</text>
+  <text x="1023" y="104" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Quadretto elettrico protetto</text>
 
   <!-- soffiatore -->
   <line x1="1023" y1="340" x2="1023" y2="376" stroke="#222" stroke-width="3" stroke-dasharray="9 6"/>
