@@ -46,7 +46,7 @@
   <rect x="372" y="288" width="22" height="14" fill="#6b8aa3"/>
   <text x="382" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#33414d">Tanica dietro la vasca</text>
   <path d="M414 340 C422 344 426 356 432 372" fill="none" stroke="#4b8d7c" stroke-width="3" stroke-dasharray="7 5"/>
-  <text x="424" y="338" font-size="13" fill="#2e6a59">tubo di aspirazione</text>
+  <text x="424" y="322" font-size="13" fill="#2e6a59">tubo di</text><text x="424" y="337" font-size="13" fill="#2e6a59">aspirazione</text>
   <rect x="424" y="372" width="32" height="22" rx="4" fill="#e9eef2" stroke="#6b7785" stroke-width="2"/>
   <rect x="436" y="352" width="8" height="20" fill="#6b7785"/>
   <rect x="428" y="396" width="24" height="48" rx="5" fill="#f4f6f8" stroke="#8795a1" stroke-width="2"/>
